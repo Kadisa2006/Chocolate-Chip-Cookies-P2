@@ -4,12 +4,12 @@ int appWidth, appHeight, largerDimension, smallerDimension;
 void setup() {
   size(600, 400);
   //fullScreen(); //displayWidth, displayHeight
-  //Display Algorithm from Hello World
   appWidth = width;
   appHeight = height;
-  largerDimension = ; //From Display Algorithm
-  smallerDimension = ; //Display Algorithm
-  
+  //Display Algorithm from Hello World
+  display();
+  //smaller & larger dimension from Display Algorithm
+  println("Smaller Dimension is", smallerDimension, "Larger Dimension is", largerDimension);
 }//End setup
 //
 void draw() {

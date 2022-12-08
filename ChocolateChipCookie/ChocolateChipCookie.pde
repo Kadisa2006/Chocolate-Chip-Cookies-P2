@@ -1,4 +1,5 @@
 //Global Variables
+int appWidth, appHeight, largerDimension, smallerDimension;
 //
 void setup() {
   size(600, 400);
@@ -11,10 +12,13 @@ void setup() {
   
 }//End setup
 //
-void draw()  {}//End draw
+void draw() {
+}//End draw
 //
-void keyPressed() {}//End keyPressed
+void keyPressed() {
+}//End keyPressed
 //
-void mousePressed() {}//End mousePressed
+void mousePressed() {
+}//End mousePressed
 //
 //End MAIN Program

@@ -14,6 +14,9 @@ void homeScreen() { //Exists in VOID DRAW
   //
 }//End homeScreen
 //
+void imageSetup() {
+}//End imageSetup
+//
 void backgroundWhiteScreen() {
   fill(white);
   noStroke();
@@ -24,6 +27,7 @@ void backgroundWhiteScreen() {
 //
 void backgroundImage() {
   backgroundWhiteScreen();
+  image(backgroundX, backgroundY, backgroundWidth, backgroundHeight);
   //image with tint()
 }//End backgroundImage
 //

@@ -1,10 +1,13 @@
 float backgroundX, backgroundY, backgroundWidth, backgroundHeight;
+int tintDayMode=255, tintDayModeOpacity=50;
+//Blue might change, starts at zero
+int tintRed=64, tintGreen=64, tintBlue=0, tintNightModeOpacity=85;
 //
 void homeScreen() { //Exists in VOID DRAW
   println("Arrived at Home Screen"); //Testing for Splash Screen Start Button working
   /* Home Screen Expectations
    - Background image using tint()
-   - 9 evenly spaced rectangles
+   - 9 evenly spaced rectangles, Assignment #3
    - Quit Button and Reset Button (Splash Screen Start Button)
    - In each: image, text, 2D Shape, Button
    - Narartive through the 9 rectangels
@@ -14,7 +17,6 @@ void homeScreen() { //Exists in VOID DRAW
   //
 }//End homeScreen
 //
-
 void backgroundWhiteScreen() {
   fill(white);
   noStroke();
@@ -25,7 +27,9 @@ void backgroundWhiteScreen() {
 //
 void backgroundImage() {
   backgroundWhiteScreen();
-  image(backgroundX, backgroundY, backgroundWidth, backgroundHeight);
+  tint(tintDayMode, tintDayModeOpacity);
+  //tint(tintRed, tintGreen, tintBlue, tintNightModeOpacity);
+  image(backgroundImage, backgroundX, backgroundY, backgroundWidth, backgroundHeight);
   //image with tint()
 }//End backgroundImage
 //

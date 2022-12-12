@@ -24,12 +24,16 @@ void draw() {
 //
 void keyPressed() {
   //Splash Screen SPACE Bar
-  if ( key==' ' ) splashScreenStart = true;
+  if ( OS_On==true && key==' ' ) {
+    splashScreenStart = true;
+    backgroundImage();
+  }//End Splash Screen SPACE Bar
+ //
 }//End keyPressed
 //
 void mousePressed() {
   //OS Level MouseClick
-  if ( OS_On==false ) OS_On=true;//End OS Level MouseClick 
+  if ( OS_On==false ) OS_On=true;//End OS Level MouseClick
 }//End mousePressed
 //
 //End MAIN Program

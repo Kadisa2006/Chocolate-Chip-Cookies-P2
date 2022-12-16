@@ -28,6 +28,7 @@ void draw() {
   //Assignemnt #2: OS Level Mouse CLick and Splash Screen
   if ( OS_On==true && splashScreenStart==false ) splashScreen(); //OS Level MOUSE Click
   if ( splashScreenStart==true ) homeScreen();
+  println(splashScreenStart);
   //
 }//End draw
 //
@@ -39,8 +40,8 @@ void keyPressed() {
   }//End Splash Screen SPACE Bar
   //
   //Key Board Short Cuts
-  if ( OS_On==true && splashScreenStart==false ) {//Home Screen Only Variables
-    //if ( key==CODED || keyCode==ESC ) exit();
+  if ( splashScreenStart==true ) {//Home Screen Only Variables
+    if ( key==CODED || keyCode==ESC ) exit();
     if ( key=='Q' || key=='q' ) exit();
     if ( key=='N' || key=='n' ) {
       if ( nightMode==false ) { 
@@ -60,7 +61,7 @@ void keyPressed() {
 void mousePressed() {
   //OS Level MouseClick
   if ( OS_On==false ) OS_On=true;//End OS Level MouseClick
-  if ( OS_On==true && splashScreenStart==false ) {//Home Screen Only Variables
+  if ( splashScreenStart==true ) {//Home Screen Only Variables
     if ( mouseX>=quitX && mouseX<=quitX+quitWidth && mouseY>=quitY && mouseY<=quitY+quitHeight ) exit();
   }//Home Screen Only
   //

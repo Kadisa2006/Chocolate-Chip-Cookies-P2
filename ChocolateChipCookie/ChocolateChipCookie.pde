@@ -4,7 +4,7 @@ Boolean OS_On=false, splashScreenStart=false;
 Boolean nightMode=false; //Bonus #1: populate with sytem clock
 //Ultimate Bonus, Gr 11: use API-sunrise for system clock start, API-sunset for system clock end
 //Hint: https://processing.org/reference/hour_.html
-color resetDefaultInk=#FFFFFF, white=#FFFFFF, purple=#FF00FF;
+color resetDefaultInk=#FFFFFF, white=#FFFFFF, purple=#FF00FF, Black=#000000;
 /* Night Mode Comment
  Purple not for Night Mode, full BLUE
  resetDefaultInk is Night Mode friendly
@@ -28,6 +28,7 @@ void draw() {
   //Assignemnt #2: OS Level Mouse CLick and Splash Screen
   if ( OS_On==true && splashScreenStart==false ) splashScreen(); //OS Level MOUSE Click
   if ( splashScreenStart==true ) homeScreen();
+  if ( splashScreenStart==true ) NineBoxes();
   println(splashScreenStart);
   //
 }//End draw

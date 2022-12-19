@@ -1,6 +1,17 @@
 float backgroundX, backgroundY, backgroundWidth, backgroundHeight;
 float quitX, quitY, quitWidth, quitHeight;
 float quitButtonImageRectX, quitButtonImageRectY, quitButtonImageRectWidth, quitButtonImageRectHeight;
+float rectI, rectII, rectIII, rectIV;
+float rectIX, rectIY, rectIWidth, rectIHeight;
+float rectIIX, rectIIY, rectIIWidth, rectIIHeight;
+float rectIIIX, rectIIIY, rectIIIWidth, rectIIIHeight;
+float rectIVX, rectIVY, rectIVWidth, rectIVHeight;
+float rectVX, rectVY, rectVWidth, rectVHeight;
+float rectVIX, rectVIY, rectVIWidth, rectVIHeight;
+float rectVIIX, rectVIIY, rectVIIWidth, rectVIIHeight;
+float rectVIIIX, rectVIIIY, rectVIIIWidth, rectVIIIHeight;
+float rectIXX, rectIXY, rectIXWidth, rectIXHeight;
+
 int tintDayMode=255, tintDayModeOpacity=50;
 //Blue might change, starts at zero
 int tintRed=64, tintGreen=64, tintBlue=0, tintNightModeOpacity=85;
@@ -57,5 +68,19 @@ void backgroundImage() {
   image(backgroundImage, backgroundX, backgroundY, backgroundWidth, backgroundHeight);
   //image with tint()
 }//End backgroundImage
+
+void NineBoxes() {
+  stroke(Black);
+  noFill();
+  rect(rectIX, rectIY, rectIWidth, rectIHeight);
+  rect(rectIIX, rectIIY, rectIIWidth, rectIIHeight);
+  rect(rectIIIX, rectIIIY, rectIIIWidth, rectIIIHeight);
+  rect(rectIVX, rectIVY, rectIVWidth, rectIVHeight);
+  rect(rectVX, rectVY, rectVWidth, rectVHeight);
+  rect(rectVIX, rectVIY, rectVIWidth, rectVIHeight);
+  rect(rectVIIX, rectVIIY, rectVIIWidth, rectVIIHeight);
+  rect(rectVIIIX, rectVIIIY, rectVIIIWidth, rectVIIIHeight);
+  rect(rectIXX, rectIXY, rectIXWidth, rectIXHeight);
+}
 //
 //End Home Screen Subprogram

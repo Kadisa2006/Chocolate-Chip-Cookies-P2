@@ -1,7 +1,7 @@
 PImage backgroundImage, quitButtonImage;
 //
 void imageSetup() {//Image Population
-  backgroundImage=loadImage("../Images/Cookie1.jpg");
+  backgroundImage=loadImage("../Images/2D-Cookie1.jpg");
   //quitButtonImage is loaded here if different
 }//End imageSetup
 //

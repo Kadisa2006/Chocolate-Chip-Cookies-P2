@@ -72,7 +72,7 @@ void backgroundImage() {
 void NineBoxes() {
   stroke(Black);
   noFill();
-  rect(rectIX, rectIY, rectIWidth, rectIHeight);
+  image(, rectIX, rectIY, rectIWidth, rectIHeight);
   rect(rectIIX, rectIIY, rectIIWidth, rectIIHeight);
   rect(rectIIIX, rectIIIY, rectIIIWidth, rectIIIHeight);
   rect(rectIVX, rectIVY, rectIVWidth, rectIVHeight);

@@ -72,15 +72,15 @@ void backgroundImage() {
 void NineBoxes() {
   stroke(Black);
   noFill();
-  image(StartImage, rectIX, rectIY, rectIWidth, rectIHeight);
+  image(Slide9, rectIX, rectIY, rectIWidth, rectIHeight);
   rect(rectIIX, rectIIY, rectIIWidth, rectIIHeight);
-  rect(rectIIIX, rectIIIY, rectIIIWidth, rectIIIHeight);
-  rect(rectIVX, rectIVY, rectIVWidth, rectIVHeight);
-  rect(rectVX, rectVY, rectVWidth, rectVHeight);
-  rect(rectVIX, rectVIY, rectVIWidth, rectVIHeight);
-  rect(rectVIIX, rectVIIY, rectVIIWidth, rectVIIHeight);
-  rect(rectVIIIX, rectVIIIY, rectVIIIWidth, rectVIIIHeight);
-  rect(rectIXX, rectIXY, rectIXWidth, rectIXHeight);
+  image(Slide3, rectIIIX, rectIIIY, rectIIIWidth, rectIIIHeight);
+  image(Slide8, rectIVX, rectIVY, rectIVWidth, rectIVHeight);
+  image(StartImage, rectVX, rectVY, rectVWidth, rectVHeight);
+  image(Slide4, rectVIX, rectVIY, rectVIWidth, rectVIHeight);
+  image(Slide7, rectVIIX, rectVIIY, rectVIIWidth, rectVIIHeight);
+  image(Slide6, rectVIIIX, rectVIIIY, rectVIIIWidth, rectVIIIHeight);
+  image(Slide5, rectIXX, rectIXY, rectIXWidth, rectIXHeight);
 }
 //
 //End Home Screen Subprogram

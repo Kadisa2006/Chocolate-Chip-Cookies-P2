@@ -1,15 +1,19 @@
 PImage backgroundImage, quitButtonImage, StartImage, Slide3, Slide4, Slide5, Slide6, Slide7, Slide8, Slide9;
+PImage DownArrow, LeftArrow, UpArrow;
 //
 void imageSetup() {//Image Population
   backgroundImage=loadImage("../Images/Pumpkin-Cream-Cheese-Cookie-Sandwiches-2.jpg");
   StartImage=loadImage("../Images/st,small,507x507-pad,600x600,f8f8f8.jpg");
-  Slide3=loadImage("../Images/k_Edit_2022-08-Brown-Butter-Chocolate-Chip-Cookies_Brown_Butter_Chocolate_Chip_Cookies-3.jpg");
+  Slide3=loadImage("../Images/Peanut-Butter-Chocolate-Chip-Cookies-1.jpg");
   Slide4=loadImage("../Images/00overlooked-images-two-slide-GI87-videoSixteenByNineJumbo1600.jpg");
   Slide5=loadImage("../Images/1C5A8967.jpg");
   Slide6=loadImage("../Images/offset_1026022.jpg");
-  Slide7=loadImage("../Images/intro-cookies-768x717.jpg");
+  Slide7=loadImage("../Images/intro-cookies-768x717.png");
   Slide8=loadImage("../Images/IMG_1046-e1619208088200.jpg");
   Slide9=loadImage("../Images/Computer-Cookies-848x480-1.jpg");
+  DownArrow=loadImage("../Images/Down-Facing-Arrow.png");
+  LeftArrow=loadImage("../Images/Left-Facing-Arrow.png");
+  UpArrow=loadImage("../Images/Up-Facing-Arrow.png");
   //quitButtonImage is loaded here if different
 }//End imageSetup
 //

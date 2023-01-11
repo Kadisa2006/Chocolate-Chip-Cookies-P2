@@ -24,7 +24,7 @@ void setup() {
 void draw() {
   if(start == true){
     img = loadImage("../Images/Peanut-Butter-Chocolate-Chip-Cookies-1.jpg");
-  image(img, 0,0,appWidth/3, appHeight/3);
+  image(img, 0,207,appWidth/3, appHeight/3);
   text("Welcome To The Multiverse",appWidth/2, appHeight/2);
   }
 Modes();
@@ -35,7 +35,7 @@ Phase6();
 Phase7();
 if(start==false){
  println("Hey,Read the Instructions.");
-background(234, 221, 202);
+background(134, 144, 315);
 }
  rectangles();
  Text_Phases();

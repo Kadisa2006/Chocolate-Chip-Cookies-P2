@@ -14,7 +14,7 @@ Phase4=false;
 };
 if(Phase4==true){
 img3=loadImage("../Images/offset_1026022.jpg");
-image(img3,0,414,appWidth/3, appHeight/3);
+image(img3,310,0,appWidth/3, appHeight/3);
 }
 };
 

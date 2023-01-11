@@ -10,42 +10,42 @@ TextTY2=appHeight*15/30;
 //text type
 textSize(23);
 fill(150, 75, 0);
-text("Start(Click on the screen)", TextX1/1.24, TextTY1 );
+text("Start(Click on the screen)", TextX1/1.25, TextTY2 );
 fill(reset);
 //
 
 textSize(23);
 fill(150, 75, 0);
-text("Reset(Right click)", TextX2, TextTY2 );
+text("Reset(Right click)", TextX2/1.05, TextTY2 );
 fill(reset);
 
 //phase2
 if (Phase2 == true) {
 textSize(15);
 fill(150, 75, 0);
-text("Welcome To Cookie Talk", appWidth/2.5, appHeight/7 );
+text("Welcome To Cookie Talk", appWidth/15, appHeight/10);
 fill(reset);
 
 textSize(15);
 fill(150, 75, 0);
-text("Press P to continue", appWidth/2.5, appHeight/5.7 );
-fill(reset);
-
-
-textSize(15);
-fill(150, 75, 0);
-text("Press N for Nightmode", appWidth/2.5, appHeight/4.7);
-fill(reset);
-
-textSize(15);
-fill(150, 75, 0);
-text("Press D for Daymode", appWidth/2.5, appHeight/4 );
+text("Press P to continue", appWidth/11.5, appHeight/7.5 );
 fill(reset);
 
 
 textSize(15);
 fill(150, 75, 0);
-text("Press ESC to quit.", appWidth/2.5, appHeight/3.5);
+text("Press N for Nightmode", appWidth/11.5, appHeight/6);
+fill(reset);
+
+textSize(15);
+fill(150, 75, 0);
+text("Press D for Daymode", appWidth/11.5, appHeight/5 );
+fill(reset);
+
+
+textSize(15);
+fill(150, 75, 0);
+text("Press ESC to quit.", appWidth/11.5, appHeight/4.3);
 fill(reset);
 }
 //Phase3
@@ -56,24 +56,24 @@ fill(reset);
 
 textSize(15);
 fill(0, 0, 0);
-text("The Creator of the CHOC CHIP COOKIE", appWidth/60, appHeight/1.9);
+text("The Creator of the CHOC CHIP COOKIE", appWidth/50, appHeight/1.2);
 fill(reset);
 
 textSize(15);
 fill(150, 75, 0);
-text("Press C to continue", appWidth/60, appHeight/1.8);
+text("Press C to continue", appWidth/50, appHeight/1.05);
 fill(reset);
 }
 //Phase4
 if(Phase4==true){
 textSize(15);
 fill(0, 0, 0);
-text("Stop staring at your cookie jar", appWidth/300, appHeight/1.4);
+text("Stop staring at your cookie jar", appWidth/2.9, appHeight/25);
 fill(reset);
 
 textSize(15);
 fill(150, 75, 0);
-text("Press B to continue", appWidth/30, appHeight/1.2);
+text("Press B to continue", appWidth/2.9, appHeight/5);
 fill(reset);
 }
 //Phase5
@@ -113,7 +113,7 @@ fill(reset);
 if(start==true){
 textSize(15);
 fill(0, 0, 0);
-text("Have a Cookie", appWidth/10, appHeight/7);
+text("Have a Cookie", appWidth/10, appHeight/2);
 fill(reset);
 }
   if(appWidth<appHeight){

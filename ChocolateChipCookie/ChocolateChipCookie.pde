@@ -25,7 +25,7 @@ void draw() {
   if(start == true){
     img = loadImage("../Images/Peanut-Butter-Chocolate-Chip-Cookies-1.jpg");
   image(img, 0,207,appWidth/3, appHeight/3);
-  text("Welcome To The Multiverse",appWidth/2, appHeight/2);
+  text("Welcome To Cookie Show",appWidth/2, appHeight/2);
   }
 Modes();
 Phase3();

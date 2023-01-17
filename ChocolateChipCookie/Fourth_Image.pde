@@ -18,4 +18,4 @@ image(img3,310,0,appWidth/3, appHeight/3);
 }
 };
 
-//text in Riechcommoskirat text
+//text in Box text

@@ -21,4 +21,4 @@ if (Phase6==true) {
 img5=loadImage("../Images/IMG_1046-e1619208088200.jpg");
 image(img5,621,414,appWidth/3, appHeight/3);
   };
-};//text in Riechcommoskirat text
+};//text in Box text

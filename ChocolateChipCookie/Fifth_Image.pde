@@ -18,4 +18,4 @@ if(Phase5==true){
 img4=loadImage("../Images/intro-cookies-768x717.png");
 image(img4,312,414,appWidth/3,appHeight/3);
   };
-};//text in Riechcommoskirat text
+};//text in Box text

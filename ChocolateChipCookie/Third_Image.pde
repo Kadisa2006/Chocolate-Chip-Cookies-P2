@@ -11,6 +11,6 @@ Phase3=false;
 if(Phase3==true){
 img2=loadImage("../Images/00overlooked-images-two-slide-GI87-videoSixteenByNineJumbo1600.jpg");
 image(img2, 0,414,appWidth/3, appHeight/3);
-//text in Riechcommoskirat text
+//text in Box text
 }
 }

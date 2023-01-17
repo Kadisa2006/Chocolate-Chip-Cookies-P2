@@ -1,5 +1,5 @@
 void Phase7(){
-if(key=='F'||key=='f'){
+if(key=='H'||key=='h'){
 Phase7=true;
   };
 if(mouseButton==RIGHT){

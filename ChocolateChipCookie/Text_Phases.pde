@@ -28,7 +28,7 @@ fill(reset);
 
 textSize(15);
 fill(150, 75, 0);
-text("Press P to continue", appWidth/11.5, appHeight/7.5 );
+text("Press V to continue", appWidth/11.5, appHeight/7.5 );
 fill(reset);
 
 
@@ -85,7 +85,7 @@ fill(reset);
 
 textSize(15);
 fill(150, 75, 0);
-text("Press I to continue", appWidth/3, appHeight/1.1);
+text("Press Y to continue", appWidth/3, appHeight/1.1);
 fill(reset);
 }
 if(Phase6==true){
@@ -93,12 +93,11 @@ textSize(15);
 fill(255, 255, 255);
 text("Creator of the internet cookie", appWidth/1.49, appHeight/1.45);
 text("He made me accept Terms & Conditions", appWidth/1.49, appHeight/1.4);
-text("Press F  to continue", appWidth/1.49, appHeight/1.1);
 fill(reset);
 
 textSize(15);
 fill(150, 75, 0);
-text("Press F  to continue", appWidth/1.49, appHeight/1.1);
+text("Press H  to continue", appWidth/1.49, appHeight/1.1);
 fill(reset);
 };
 
